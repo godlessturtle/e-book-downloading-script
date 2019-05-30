@@ -145,7 +145,7 @@ class AdminController extends CI_Controller{
 					echo $this->upload->display_errors();
 				}
 			}else {
-				echo "resim alanı boş olmaz babo";
+				echo "resim alanı boş";
 			}
 
 		}else{
